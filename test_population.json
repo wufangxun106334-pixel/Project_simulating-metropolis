@@ -1,0 +1,199 @@
+[
+  {
+    "id": 1,
+    "home_location": {
+      "x": 50,
+      "y": 50
+    },
+    "work_location": {
+      "x": 60,
+      "y": 60
+    },
+    "rec_location": [
+      {
+        "x": 55,
+        "y": 45
+      },
+      {
+        "x": 50,
+        "y": 65
+      }
+    ],
+    "transport_modes": [
+      "walk",
+      "bike",
+      "car"
+    ],
+    "daily_routine": {
+      "weekday": [
+        "home",
+        "work",
+        "rec",
+        "home"
+      ],
+      "weekend": [
+        "home",
+        "rec",
+        "home",
+        "rec",
+        "home"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "home_location": {
+      "x": 45,
+      "y": 55
+    },
+    "work_location": {
+      "x": 65,
+      "y": 65
+    },
+    "rec_location": [
+      {
+        "x": 60,
+        "y": 50
+      },
+      {
+        "x": 55,
+        "y": 60
+      }
+    ],
+    "transport_modes": [
+      "bike",
+      "bus"
+    ],
+    "daily_routine": {
+      "weekday": [
+        "home",
+        "work",
+        "home"
+      ],
+      "weekend": [
+        "home",
+        "rec",
+        "rec",
+        "home"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "home_location": {
+      "x": 55,
+      "y": 45
+    },
+    "work_location": {
+      "x": 50,
+      "y": 50
+    },
+    "rec_location": [
+      {
+        "x": 60,
+        "y": 60
+      },
+      {
+        "x": 45,
+        "y": 50
+      }
+    ],
+    "transport_modes": [
+      "car",
+      "bus",
+      "metro"
+    ],
+    "daily_routine": {
+      "weekday": [
+        "home",
+        "work",
+        "rec",
+        "work",
+        "home"
+      ],
+      "weekend": [
+        "home",
+        "rec",
+        "home"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "home_location": {
+      "x": 40,
+      "y": 60
+    },
+    "work_location": {
+      "x": 55,
+      "y": 55
+    },
+    "rec_location": [
+      {
+        "x": 50,
+        "y": 50
+      }
+    ],
+    "transport_modes": [
+      "walk",
+      "bike"
+    ],
+    "daily_routine": {
+      "weekday": [
+        "home",
+        "work",
+        "home"
+      ],
+      "weekend": [
+        "home",
+        "rec",
+        "home",
+        "rec",
+        "home"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "home_location": {
+      "x": 60,
+      "y": 40
+    },
+    "work_location": {
+      "x": 50,
+      "y": 60
+    },
+    "rec_location": [
+      {
+        "x": 55,
+        "y": 50
+      },
+      {
+        "x": 60,
+        "y": 60
+      },
+      {
+        "x": 50,
+        "y": 45
+      }
+    ],
+    "transport_modes": [
+      "car",
+      "metro"
+    ],
+    "daily_routine": {
+      "weekday": [
+        "home",
+        "work",
+        "rec",
+        "home"
+      ],
+      "weekend": [
+        "home",
+        "rec",
+        "rec",
+        "home"
+      ]
+    }
+  }
+]

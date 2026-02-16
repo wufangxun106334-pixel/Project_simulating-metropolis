@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "home_location": {
+      "x": 25,
+      "y": 35
+    },
+    "work_location": {
+      "x": 45,
+      "y": 55
+    },
+    "rec_location": [
+      {
+        "x": 60,
+        "y": 70
+      },
+      {
+        "x": 80,
+        "y": 20
+      }
+    ],
+    "transport_modes": [
+      "walk",
+      "car",
+      "bus"
+    ],
+    "daily_routine": {
+      "weekday": [
+        "home",
+        "work",
+        "rec",
+        "home"
+      ],
+      "weekend": [
+        "home",
+        "rec",
+        "home",
+        "rec",
+        "home"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "home_location": {
+      "x": 30,
+      "y": 40
+    },
+    "work_location": {
+      "x": 50,
+      "y": 60
+    },
+    "rec_location": [
+      {
+        "x": 70,
+        "y": 80
+      }
+    ],
+    "transport_modes": [
+      "walk",
+      "bike",
+      "electric_car"
+    ],
+    "daily_routine": {
+      "weekday": [
+        "home",
+        "work",
+        "rec",
+        "home"
+      ],
+      "weekend": [
+        "home",
+        "rec",
+        "home"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "home_location": {
+      "x": 15,
+      "y": 25
+    },
+    "work_location": {
+      "x": 35,
+      "y": 45
+    },
+    "rec_location": [
+      {
+        "x": 55,
+        "y": 65
+      },
+      {
+        "x": 75,
+        "y": 85
+      },
+      {
+        "x": 20,
+        "y": 30
+      }
+    ],
+    "transport_modes": [
+      "walk",
+      "hybrid_car",
+      "bus"
+    ],
+    "daily_routine": {
+      "weekday": [
+        "home",
+        "work",
+        "rec",
+        "home"
+      ],
+      "weekend": [
+        "home",
+        "rec",
+        "home",
+        "rec",
+        "home"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "home_location": {
+      "x": 40,
+      "y": 50
+    },
+    "work_location": {
+      "x": 60,
+      "y": 70
+    },
+    "rec_location": [
+      {
+        "x": 10,
+        "y": 20
+      }
+    ],
+    "transport_modes": [
+      "walk",
+      "bike",
+      "car"
+    ],
+    "daily_routine": {
+      "weekday": [
+        "home",
+        "work",
+        "rec",
+        "home"
+      ],
+      "weekend": [
+        "home",
+        "rec",
+        "home"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "home_location": {
+      "x": 35,
+      "y": 45
+    },
+    "work_location": {
+      "x": 55,
+      "y": 65
+    },
+    "rec_location": [
+      {
+        "x": 75,
+        "y": 15
+      },
+      {
+        "x": 85,
+        "y": 25
+      }
+    ],
+    "transport_modes": [
+      "walk",
+      "electric_car",
+      "bus",
+      "bike"
+    ],
+    "daily_routine": {
+      "weekday": [
+        "home",
+        "work",
+        "rec",
+        "home"
+      ],
+      "weekend": [
+        "home",
+        "rec",
+        "home"
+      ]
+    }
+  }
+]

@@ -1,0 +1,137 @@
+{
+    "name": "TestCity",
+    "roads": [
+        {
+            "start": {
+                "x": 50,
+                "y": 50
+            },
+            "end": {
+                "x": 60,
+                "y": 60
+            },
+            "max_speed_limit": 60,
+            "allowed_modes": [
+                "car",
+                "bus",
+                "bike"
+            ],
+            "current_traffic": 0
+        },
+        {
+            "start": {
+                "x": 60,
+                "y": 60
+            },
+            "end": {
+                "x": 55,
+                "y": 45
+            },
+            "max_speed_limit": 50,
+            "allowed_modes": [
+                "car",
+                "bus"
+            ],
+            "current_traffic": 0
+        },
+        {
+            "start": {
+                "x": 50,
+                "y": 50
+            },
+            "end": {
+                "x": 55,
+                "y": 45
+            },
+            "max_speed_limit": 70,
+            "allowed_modes": [
+                "car",
+                "bus",
+                "bike"
+            ],
+            "current_traffic": 0
+        },
+        {
+            "start": {
+                "x": 50,
+                "y": 50
+            },
+            "end": {
+                "x": 49,
+                "y": 51
+            },
+            "max_speed_limit": 30,
+            "allowed_modes": [
+                "walk",
+                "bike"
+            ],
+            "current_traffic": 0
+        }
+    ],
+    "landmarks": [
+        {
+            "name": "Downtown",
+            "location": {
+                "x": 50,
+                "y": 50
+            },
+            "local_points": [
+                {
+                    "x": 49,
+                    "y": 51
+                },
+                {
+                    "x": 51,
+                    "y": 49
+                }
+            ],
+            "res_chance": 0.2,
+            "work_chance": 0.5,
+            "rec_chance": 0.3
+        },
+        {
+            "name": "Park",
+            "location": {
+                "x": 60,
+                "y": 60
+            },
+            "local_points": [
+                {
+                    "x": 59,
+                    "y": 61
+                },
+                {
+                    "x": 61,
+                    "y": 59
+                },
+                {
+                    "x": 60,
+                    "y": 62
+                }
+            ],
+            "res_chance": 0.0,
+            "work_chance": 0.0,
+            "rec_chance": 1.0
+        },
+        {
+            "name": "ResidentialArea",
+            "location": {
+                "x": 55,
+                "y": 45
+            },
+            "local_points": [
+                {
+                    "x": 54,
+                    "y": 46
+                },
+                {
+                    "x": 56,
+                    "y": 44
+                }
+            ],
+            "res_chance": 0.9,
+            "work_chance": 0.1,
+            "rec_chance": 0.0
+        }
+    ]
+}
