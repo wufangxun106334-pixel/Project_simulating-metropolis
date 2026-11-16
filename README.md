@@ -15,7 +15,7 @@ This project simulates daily movement under different policy settings (with/with
 - Computed travel-time and CO2 metrics per scenario, per mode, and globally
 - Produced visual reports for city map, population distribution, and scenario comparison
 
-## Resume-Oriented Outcomes
+## Key Results (simulation)
 
 - Simulated **5,000 agents** on a city network with **1,109 roads**
 - Designed and evaluated **4 scenarios**:
@@ -24,9 +24,10 @@ This project simulates daily movement under different policy settings (with/with
   - Weekend (No Metro)
   - Weekend (With Metro)
 - Metro-enabled outcomes (weekday):
-  - Average travel time: **29.5 -> 25.5 min** (`-13.6%`)
-  - Total CO2 emissions: **43.4 -> 15.1 kg** (`-65.2%`)
-  - Total trips: **~95,000 -> ~61,000** (`-35.8%`)
+  - Average travel time: **28.46 -> 25.69 min** (`-9.7%`)
+  - Total CO2 emissions: **43.40 -> 14.98 t** (`-65.5%`)
+  - Total trips: **95,278 -> 56,576** (`-40.6%`)
+- Figures are taken from the saved Task 19 output in `Report_25208508.ipynb`. The simulation is stochastic, so re-runs give slightly different values.
 - Demonstrated policy-level insight: transit expansion can reduce both congestion pressure and environmental impact
 
 ## Tech Stack
